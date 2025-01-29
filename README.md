@@ -1,4 +1,4 @@
-# Currency Converter .NET 9 Web API
+# Currency Converter Web API (.NET 9)
 
 ## Overview  
 This is a **.NET 9 Core Web API** project designed for building scalable RESTful services. It includes the best practices caching, DI and other coding standards. 
