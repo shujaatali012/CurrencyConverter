@@ -2,10 +2,12 @@ using System.Globalization;
 using Microsoft.AspNetCore.Mvc;
 using CurrencyConverterApi.Services;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.RateLimiting;
 
 
 namespace CurrencyConverterApi.Controllers
 {
+    [EnableRateLimiting("fixed")]
     [ApiController]
     [Route("api/[controller]")]
     public class CurrencyConverterController : ControllerBase

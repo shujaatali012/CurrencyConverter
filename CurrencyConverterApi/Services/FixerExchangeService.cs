@@ -10,16 +10,17 @@ namespace CurrencyConverterApi.Services
         #region properties
         
         private static readonly ConcurrentDictionary<string, ExchangeRatesResponse> Cache = new();
-        private readonly HttpClient _httpClient;
+        private readonly IHttpClientFactory  _httpClientFactory;
         private readonly IConfiguration _configuration;
 
         #endregion
         
         #region constructor
 
-        public FixerExchangeService(HttpClient httpClient, IConfiguration configuration)
+        public FixerExchangeService(IHttpClientFactory httpClientFactory,
+            IConfiguration configuration)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _configuration = configuration;
         }
         
@@ -38,7 +39,9 @@ namespace CurrencyConverterApi.Services
 
                 var endpoint = _configuration["ExchangeApiKeys:FixerLatestEndpoint"];
                 var accessKey = _configuration["ExchangeApiKeys:FixerKey"];
-                var response = await _httpClient.GetAsync($"{endpoint}?access_key={accessKey}&base={baseCurrency}");
+                var client = _httpClientFactory.CreateClient("CurrencyExchangeApi");
+                var response = await client.GetAsync($"{endpoint}?access_key={accessKey}&base={baseCurrency}");
+                response.EnsureSuccessStatusCode();
 
                 if (!response.IsSuccessStatusCode)
                 {
@@ -88,8 +91,9 @@ namespace CurrencyConverterApi.Services
             // todo get historical data from fixer.io (not working) and use caching
             var accessKey = _configuration["ExchangeApiKeys:FixerKey"];
             var endpoint = _configuration["ExchangeApiKeys:FixerTimeSeriestEndpoint"];
-
-            var response = await _httpClient.GetAsync($"{endpoint}?access_key={accessKey}&start_date={startDate}&end_date={endDate}&base={baseCurrency}");
+            var client = _httpClientFactory.CreateClient("CurrencyExchangeApi");
+            var response = await client.GetAsync($"{endpoint}?access_key={accessKey}&start_date={startDate}&end_date={endDate}&base={baseCurrency}");
+            response.EnsureSuccessStatusCode();
 
             if (!response.IsSuccessStatusCode)
             {

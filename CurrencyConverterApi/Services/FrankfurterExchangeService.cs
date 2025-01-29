@@ -10,16 +10,17 @@ namespace CurrencyConverterApi.Services
         #region properties
 
         private static readonly ConcurrentDictionary<string, ExchangeRatesResponse> Cache = new();
-        private readonly HttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IConfiguration _configuration;
         
         #endregion
         
         #region constructor
         
-        public FrankfurterExchangeService(HttpClient httpClient, IConfiguration configuration)
+        public FrankfurterExchangeService(IHttpClientFactory httpClientFactory, 
+            IConfiguration configuration)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _configuration = configuration;
         }
         
@@ -37,7 +38,9 @@ namespace CurrencyConverterApi.Services
             }
 
             var endpoint = _configuration["ExchangeApiKeys:FrankfurterLatestEndpoint"];
-            var response = await _httpClient.GetAsync($"{endpoint}?baseCurrency={baseCurrency}");
+            var client = _httpClientFactory.CreateClient("CurrencyExchangeApi");
+            var response = await client.GetAsync($"{endpoint}?baseCurrency={baseCurrency}");
+            response.EnsureSuccessStatusCode();
 
             if (!response.IsSuccessStatusCode)
                 throw new HttpRequestException("Frankfurter api is unavailable.");
@@ -84,8 +87,10 @@ namespace CurrencyConverterApi.Services
             var endpoint = _configuration["ExchangeApiKeys:FrankfurterDevEndpoint"];
     
             // todo use caching
-            var response = await _httpClient.GetAsync($"{endpoint}{startDate}..{endDate}?base={baseCurrency}");
-
+            var client = _httpClientFactory.CreateClient();
+            var response = await client.GetAsync($"{endpoint}{startDate}..{endDate}?base={baseCurrency}");
+            response.EnsureSuccessStatusCode();
+                
             if (!response.IsSuccessStatusCode)
             {
                 throw new HttpRequestException($"Failed to fetch historical rates for {baseCurrency}.");

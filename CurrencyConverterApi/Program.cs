@@ -1,5 +1,8 @@
 using Serilog;
 using CurrencyConverterApi.Services;
+using CurrencyConverterApi.Infrastructure.HttpHandler;
+using System.Threading.RateLimiting;
+using Microsoft.AspNetCore.RateLimiting;
 
 internal class Program
 {
@@ -38,7 +41,33 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllers();
-        builder.Services.AddHttpClient();
+        
+        // Api Rate Limiting
+        builder.Services.AddRateLimiter(options => {
+            options.AddFixedWindowLimiter("fixed", limiterOptions => 
+            {
+                limiterOptions.PermitLimit = 100; // number of allowed requests
+                limiterOptions.Window = TimeSpan.FromMinutes(1); // time window
+                limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                limiterOptions.QueueLimit = 5; // number of requests to queue
+            });
+        });
+
+        // Configure HttpClient with Rate Limiting (10 requests per second)
+        var rateLimiter = new TokenBucketRateLimiter(new TokenBucketRateLimiterOptions
+        {
+            TokenLimit = 10,  // max tokens
+            TokensPerPeriod = 10,  // refill rate per period
+            ReplenishmentPeriod = TimeSpan.FromSeconds(1), // refill interval
+            QueueLimit = 0,
+            QueueProcessingOrder = QueueProcessingOrder.OldestFirst
+        });
+        
+        builder.Services.AddHttpClient("CurrencyExchangeApi")
+            .ConfigurePrimaryHttpMessageHandler(() => new HttpRateLimitingHandler(rateLimiter)
+            {
+                InnerHandler = new HttpClientHandler()
+            });
 
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
@@ -79,6 +108,10 @@ internal class Program
 
         // Enable cors middleware
         app.UseCors();
+
+        // enale rate limiting
+        app.UseRateLimiter();
+        app.MapControllers().RequireRateLimiting("fixed");
 
         app.UseHttpLogging(); // Logs http request details
 

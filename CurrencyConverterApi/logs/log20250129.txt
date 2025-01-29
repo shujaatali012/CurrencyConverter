@@ -3982,3 +3982,2018 @@ Date: Wed, 29 Jan 2025 07:49:05 GMT
 Server: Kestrel
 2025-01-29 11:49:05.899 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=EUR&toCurrency=TRY&amount=100 - 400 null text/plain; charset=utf-8 1.8582ms
 2025-01-29 12:12:25.947 +04:00 [INF] Application is shutting down...
+2025-01-29 18:09:21.993 +04:00 [WRN] Overriding address(es) 'https://localhost:7289, http://localhost:5258'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-01-29 18:09:22.019 +04:00 [INF] Now listening on: http://localhost:5258
+2025-01-29 18:09:22.019 +04:00 [INF] Now listening on: https://localhost:7289
+2025-01-29 18:09:22.019 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 18:09:22.019 +04:00 [INF] Hosting environment: Development
+2025-01-29 18:09:22.019 +04:00 [INF] Content root path: /Users/shujaat/CurrencyConverter/CurrencyConverterApi
+2025-01-29 18:09:31.564 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 18:09:31.578 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:31.616 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:30 GMT
+Server: Kestrel
+2025-01-29 18:09:31.617 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 54.0239ms
+2025-01-29 18:09:31.637 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 18:09:31.644 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:31.645 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:30 GMT
+Server: Kestrel
+2025-01-29 18:09:31.646 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 8.9359ms
+2025-01-29 18:09:31.694 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 18:09:31.695 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:31.743 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:30 GMT
+Server: Kestrel
+2025-01-29 18:09:31.743 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.8993ms
+2025-01-29 18:09:34.487 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 18:09:34.488 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:34.488 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:33 GMT
+Server: Kestrel
+2025-01-29 18:09:34.488 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 1.6076ms
+2025-01-29 18:09:34.499 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 18:09:34.500 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:34.500 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:33 GMT
+Server: Kestrel
+2025-01-29 18:09:34.501 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.3792ms
+2025-01-29 18:09:34.544 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 18:09:34.544 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:09:34.546 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 14:09:33 GMT
+Server: Kestrel
+2025-01-29 18:09:34.546 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.3516ms
+2025-01-29 18:12:50.840 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - null null
+2025-01-29 18:12:50.842 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:12:50.844 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 18:12:50.863 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 18:12:50.884 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:12:50.885 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:12:52.237 +04:00 [INF] Received HTTP response headers after 1349.1964ms - 200
+2025-01-29 18:12:52.238 +04:00 [INF] End processing HTTP request after 1355.7554ms - 200
+2025-01-29 18:12:52.258 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 18:12:52.265 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 1399.1402ms
+2025-01-29 18:12:52.265 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 18:12:52.266 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 14:12:52 GMT
+Server: Kestrel
+2025-01-29 18:12:52.267 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1427.2307ms
+2025-01-29 18:15:34.172 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=GBP&toCurrency=AED&amount=100 - null null
+2025-01-29 18:15:34.174 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/convert
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:15:34.174 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:15:34.177 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConvertCurrency(System.String, System.String, System.Decimal) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 18:15:34.183 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:15:34.184 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:15:35.240 +04:00 [INF] Received HTTP response headers after 1056.3713ms - 200
+2025-01-29 18:15:35.240 +04:00 [INF] End processing HTTP request after 1056.9275ms - 200
+2025-01-29 18:15:35.243 +04:00 [INF] Start processing HTTP request GET https://data.fixer.io/api/latest?*
+2025-01-29 18:15:35.243 +04:00 [INF] Sending HTTP request GET https://data.fixer.io/api/latest?*
+2025-01-29 18:15:36.512 +04:00 [INF] Received HTTP response headers after 1269.3061ms - 200
+2025-01-29 18:15:36.513 +04:00 [INF] End processing HTTP request after 1270.009ms - 200
+2025-01-29 18:15:36.515 +04:00 [ERR] Error while converting. Details: Exchange rate for AED not found.
+2025-01-29 18:15:36.515 +04:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-01-29 18:15:36.516 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi) in 2338.4486ms
+2025-01-29 18:15:36.516 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:15:36.516 +04:00 [INF] Response:
+StatusCode: 404
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 29 Jan 2025 14:15:36 GMT
+Server: Kestrel
+2025-01-29 18:15:36.516 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=GBP&toCurrency=AED&amount=100 - 404 null text/plain; charset=utf-8 2344.3654ms
+2025-01-29 18:15:54.348 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=GBP&toCurrency=USD&amount=100 - null null
+2025-01-29 18:15:54.348 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/convert
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:15:54.349 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:15:54.349 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConvertCurrency(System.String, System.String, System.Decimal) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 18:15:54.350 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 18:15:54.358 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi) in 9.076ms
+2025-01-29 18:15:54.358 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:15:54.358 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 14:15:54 GMT
+Server: Kestrel
+2025-01-29 18:15:54.359 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=GBP&toCurrency=USD&amount=100 - 200 null application/json; charset=utf-8 10.6648ms
+2025-01-29 18:16:15.827 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=CAD&toCurrency=USD&amount=100 - null null
+2025-01-29 18:16:15.827 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/convert
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 18:16:15.827 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:16:15.827 +04:00 [INF] Route matched with {action = "ConvertCurrency", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConvertCurrency(System.String, System.String, System.Decimal) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 18:16:15.828 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:16:15.828 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 18:16:16.406 +04:00 [INF] Received HTTP response headers after 578.0067ms - 200
+2025-01-29 18:16:16.407 +04:00 [INF] End processing HTTP request after 578.7987ms - 200
+2025-01-29 18:16:16.409 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 18:16:16.409 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi) in 581.739ms
+2025-01-29 18:16:16.409 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.ConvertCurrency (CurrencyConverterApi)'
+2025-01-29 18:16:16.410 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 14:16:16 GMT
+Server: Kestrel
+2025-01-29 18:16:16.410 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/convert?fromCurrency=CAD&toCurrency=USD&amount=100 - 200 null application/json; charset=utf-8 583.2767ms
+2025-01-29 19:30:04.435 +04:00 [INF] Application is shutting down...
+2025-01-29 19:39:43.600 +04:00 [WRN] Overriding address(es) 'https://localhost:7289, http://localhost:5258'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-01-29 19:39:43.625 +04:00 [INF] Now listening on: http://localhost:5258
+2025-01-29 19:39:43.626 +04:00 [INF] Now listening on: https://localhost:7289
+2025-01-29 19:39:43.626 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 19:39:43.626 +04:00 [INF] Hosting environment: Development
+2025-01-29 19:39:43.626 +04:00 [INF] Content root path: /Users/shujaat/CurrencyConverter/CurrencyConverterApi
+2025-01-29 19:39:53.070 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 19:39:53.085 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:39:53.117 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 15:39:52 GMT
+Server: Kestrel
+2025-01-29 19:39:53.118 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 49.3857ms
+2025-01-29 19:39:53.132 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 19:39:53.137 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:39:53.138 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 15:39:52 GMT
+Server: Kestrel
+2025-01-29 19:39:53.139 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 6.9356ms
+2025-01-29 19:39:53.169 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 19:39:53.170 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:39:53.226 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 15:39:52 GMT
+Server: Kestrel
+2025-01-29 19:39:53.226 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.354ms
+2025-01-29 19:40:06.360 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 19:40:06.361 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:06.362 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:05 GMT
+Server: Kestrel
+2025-01-29 19:40:06.362 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 1.3836ms
+2025-01-29 19:40:06.373 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 19:40:06.374 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:06.374 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:05 GMT
+Server: Kestrel
+2025-01-29 19:40:06.375 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.38ms
+2025-01-29 19:40:06.418 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 19:40:06.418 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:06.420 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:05 GMT
+Server: Kestrel
+2025-01-29 19:40:06.420 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.1797ms
+2025-01-29 19:40:27.176 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - null null
+2025-01-29 19:40:27.178 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:27.179 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:27.199 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 19:40:27.220 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:27.221 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:28.612 +04:00 [INF] Received HTTP response headers after 1387.6256ms - 200
+2025-01-29 19:40:28.613 +04:00 [INF] End processing HTTP request after 1394.8943ms - 200
+2025-01-29 19:40:28.633 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 19:40:28.641 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 1439.3363ms
+2025-01-29 19:40:28.641 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:28.642 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:27 GMT
+Server: Kestrel
+2025-01-29 19:40:28.643 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1466.9989ms
+2025-01-29 19:40:29.766 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - null null
+2025-01-29 19:40:29.767 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:29.767 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:29.768 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 19:40:29.769 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:29.769 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:29.963 +04:00 [INF] Received HTTP response headers after 194.439ms - 200
+2025-01-29 19:40:29.964 +04:00 [INF] End processing HTTP request after 195.3238ms - 200
+2025-01-29 19:40:29.966 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 19:40:29.967 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 198.7817ms
+2025-01-29 19:40:29.967 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:29.967 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:29 GMT
+Server: Kestrel
+2025-01-29 19:40:29.968 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 201.75ms
+2025-01-29 19:40:30.814 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - null null
+2025-01-29 19:40:30.814 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 19:40:30.815 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:30.815 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 19:40:30.815 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:30.815 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 19:40:30.964 +04:00 [INF] Received HTTP response headers after 148.0336ms - 200
+2025-01-29 19:40:30.964 +04:00 [INF] End processing HTTP request after 149.0421ms - 200
+2025-01-29 19:40:30.965 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 19:40:30.966 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 150.7835ms
+2025-01-29 19:40:30.966 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 19:40:30.967 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 15:40:30 GMT
+Server: Kestrel
+2025-01-29 19:40:30.967 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 152.8661ms
+2025-01-29 20:02:22.878 +04:00 [INF] Application is shutting down...
+2025-01-29 20:02:44.862 +04:00 [WRN] Overriding address(es) 'https://localhost:7289, http://localhost:5258'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-01-29 20:02:44.886 +04:00 [INF] Now listening on: http://localhost:5258
+2025-01-29 20:02:44.887 +04:00 [INF] Now listening on: https://localhost:7289
+2025-01-29 20:02:44.887 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 20:02:44.887 +04:00 [INF] Hosting environment: Development
+2025-01-29 20:02:44.887 +04:00 [INF] Content root path: /Users/shujaat/CurrencyConverter/CurrencyConverterApi
+2025-01-29 20:02:50.128 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:02:50.141 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.174 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:49 GMT
+Server: Kestrel
+2025-01-29 20:02:50.175 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 47.3876ms
+2025-01-29 20:02:50.187 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:50.194 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.195 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:49 GMT
+Server: Kestrel
+2025-01-29 20:02:50.196 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 8.7777ms
+2025-01-29 20:02:50.219 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:02:50.220 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.272 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:49 GMT
+Server: Kestrel
+2025-01-29 20:02:50.273 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.8713ms
+2025-01-29 20:02:50.304 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:50.304 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.305 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:49 GMT
+Server: Kestrel
+2025-01-29 20:02:50.305 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.5354ms
+2025-01-29 20:02:50.921 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:02:50.922 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.923 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:50.923 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 1.647ms
+2025-01-29 20:02:50.929 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:50.929 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.930 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:50.930 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.0916ms
+2025-01-29 20:02:50.955 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:02:50.956 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:50.959 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:50.959 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.1077ms
+2025-01-29 20:02:51.283 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:51.283 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:51.284 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:51.284 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.976ms
+2025-01-29 20:02:51.559 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:02:51.560 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:51.560 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:51.560 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.6022ms
+2025-01-29 20:02:51.567 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:51.567 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:51.567 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:51.568 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.6564ms
+2025-01-29 20:02:51.570 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:02:51.570 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:51.570 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:51.570 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.7552ms
+2025-01-29 20:02:51.600 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:02:51.600 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:51.601 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:50 GMT
+Server: Kestrel
+2025-01-29 20:02:51.602 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.9979ms
+2025-01-29 20:02:58.975 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - null null
+2025-01-29 20:02:58.982 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:02:58.984 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:02:59.001 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 20:02:59.021 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:02:59.021 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:03:00.393 +04:00 [INF] Received HTTP response headers after 1368.0141ms - 200
+2025-01-29 20:03:00.394 +04:00 [INF] End processing HTTP request after 1374.4236ms - 200
+2025-01-29 20:03:00.413 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 20:03:00.420 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 1416.6482ms
+2025-01-29 20:03:00.421 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:03:00.421 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 16:02:59 GMT
+Server: Kestrel
+2025-01-29 20:03:00.423 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=EUR - 200 null application/json; charset=utf-8 1448.0595ms
+2025-01-29 20:03:04.632 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GBP - null null
+2025-01-29 20:03:59.052 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:03:59.052 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:03:59.053 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 20:03:59.055 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:03:59.055 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:03:59.662 +04:00 [INF] Received HTTP response headers after 606.7658ms - 200
+2025-01-29 20:03:59.662 +04:00 [INF] End processing HTTP request after 607.9898ms - 200
+2025-01-29 20:03:59.664 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 20:03:59.664 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 611.4174ms
+2025-01-29 20:03:59.665 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:03:59.665 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 16:03:58 GMT
+Server: Kestrel
+2025-01-29 20:03:59.665 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GBP - 200 null application/json; charset=utf-8 55036.3452ms
+2025-01-29 20:04:04.447 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GBP - null null
+2025-01-29 20:04:50.372 +04:00 [INF] Application is shutting down...
+2025-01-29 20:04:59.146 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:04:59.146 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:04:59.147 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 20:04:59.148 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 20:04:59.148 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 1.2944ms
+2025-01-29 20:04:59.148 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:04:59.149 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 16:04:49 GMT
+Server: Kestrel
+2025-01-29 20:04:59.149 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GBP - 200 null application/json; charset=utf-8 54704.6301ms
+2025-01-29 20:05:17.684 +04:00 [WRN] Overriding address(es) 'https://localhost:7289, http://localhost:5258'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-01-29 20:05:17.710 +04:00 [INF] Now listening on: http://localhost:5258
+2025-01-29 20:05:17.711 +04:00 [INF] Now listening on: https://localhost:7289
+2025-01-29 20:05:17.711 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 20:05:17.711 +04:00 [INF] Hosting environment: Development
+2025-01-29 20:05:17.711 +04:00 [INF] Content root path: /Users/shujaat/CurrencyConverter/CurrencyConverterApi
+2025-01-29 20:05:19.647 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:19.663 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:19.695 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:19 GMT
+Server: Kestrel
+2025-01-29 20:05:19.696 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 50.5834ms
+2025-01-29 20:05:19.713 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:19.716 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:19.717 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:19 GMT
+Server: Kestrel
+2025-01-29 20:05:19.717 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 3.9265ms
+2025-01-29 20:05:19.745 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:19.747 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:19.799 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:19 GMT
+Server: Kestrel
+2025-01-29 20:05:19.799 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.2639ms
+2025-01-29 20:05:20.726 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:20.727 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:20.728 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:20 GMT
+Server: Kestrel
+2025-01-29 20:05:20.728 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.711ms
+2025-01-29 20:05:21.771 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:21.772 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:21.772 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:21.772 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.9078ms
+2025-01-29 20:05:21.778 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:21.779 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:21.781 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:21.781 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 3.5627ms
+2025-01-29 20:05:21.807 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:21.807 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:21.808 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:21.808 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4918ms
+2025-01-29 20:05:21.825 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:21.826 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:21.826 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:21.827 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.4467ms
+2025-01-29 20:05:22.027 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.027 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.027 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.028 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 1.0492ms
+2025-01-29 20:05:22.037 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.038 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.039 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.039 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 2.0947ms
+2025-01-29 20:05:22.042 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.043 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.043 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.043 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.0259ms
+2025-01-29 20:05:22.077 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:22.077 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.079 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.079 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.5114ms
+2025-01-29 20:05:22.208 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.208 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.208 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.208 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.5665ms
+2025-01-29 20:05:22.215 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.215 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.215 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.215 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.5489ms
+2025-01-29 20:05:22.244 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:22.245 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.245 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.245 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.17ms
+2025-01-29 20:05:22.391 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.391 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.392 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.5541ms
+2025-01-29 20:05:22.399 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.399 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.400 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.400 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.8733ms
+2025-01-29 20:05:22.429 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:22.429 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.430 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.430 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.35ms
+2025-01-29 20:05:22.575 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.576 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.576 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.576 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.616ms
+2025-01-29 20:05:22.583 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.583 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.584 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.584 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.7917ms
+2025-01-29 20:05:22.614 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:22.615 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.615 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:21 GMT
+Server: Kestrel
+2025-01-29 20:05:22.615 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.1502ms
+2025-01-29 20:05:22.776 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.776 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.776 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:22.776 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.4583ms
+2025-01-29 20:05:22.782 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:22.782 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.782 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:22.782 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.7896ms
+2025-01-29 20:05:22.812 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:22.812 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.812 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:22.812 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 0.8771ms
+2025-01-29 20:05:22.996 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:22.996 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:22.997 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:22.997 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.7401ms
+2025-01-29 20:05:23.004 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:23.005 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.005 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:23.006 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.4079ms
+2025-01-29 20:05:23.035 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:23.035 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.037 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:23.038 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.9965ms
+2025-01-29 20:05:23.197 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:23.197 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.198 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:23.198 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.7842ms
+2025-01-29 20:05:23.205 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:23.206 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.207 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:23.207 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 1.3179ms
+2025-01-29 20:05:23.238 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:23.238 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.239 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:22 GMT
+Server: Kestrel
+2025-01-29 20:05:23.239 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4647ms
+2025-01-29 20:05:23.703 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:23.703 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.703 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:23 GMT
+Server: Kestrel
+2025-01-29 20:05:23.703 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.7202ms
+2025-01-29 20:05:23.711 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:23.712 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.712 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:23 GMT
+Server: Kestrel
+2025-01-29 20:05:23.712 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.957ms
+2025-01-29 20:05:23.748 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:23.748 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:23.749 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:23 GMT
+Server: Kestrel
+2025-01-29 20:05:23.750 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.3344ms
+2025-01-29 20:05:24.761 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.html - null null
+2025-01-29 20:05:24.761 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:24.761 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:24 GMT
+Server: Kestrel
+2025-01-29 20:05:24.761 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.html - 200 null text/html;charset=utf-8 0.8317ms
+2025-01-29 20:05:24.771 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/index.js - null null
+2025-01-29 20:05:24.771 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /index.js
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:24.772 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/javascript;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:24 GMT
+Server: Kestrel
+2025-01-29 20:05:24.772 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/index.js - 200 null application/javascript;charset=utf-8 0.8038ms
+2025-01-29 20:05:24.817 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2025-01-29 20:05:24.817 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:24.819 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:24 GMT
+Server: Kestrel
+2025-01-29 20:05:24.819 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.3323ms
+2025-01-29 20:05:36.272 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GPB - null null
+2025-01-29 20:05:36.278 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:36.281 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:05:36.298 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 20:05:36.318 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:05:36.319 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:05:37.350 +04:00 [INF] Received HTTP response headers after 1029.1961ms - 200
+2025-01-29 20:05:37.350 +04:00 [INF] End processing HTTP request after 1034.0892ms - 200
+2025-01-29 20:05:37.361 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 20:05:37.365 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 1066.1156ms
+2025-01-29 20:05:37.366 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:05:37.366 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:36 GMT
+Server: Kestrel
+2025-01-29 20:05:37.367 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=GPB - 200 null application/json; charset=utf-8 1094.6335ms
+2025-01-29 20:05:41.978 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=eur - null null
+2025-01-29 20:05:41.980 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/CurrencyConverter/rates
+Accept: */*
+Host: localhost:7289
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted]
+2025-01-29 20:05:41.980 +04:00 [INF] Executing endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:05:41.981 +04:00 [INF] Route matched with {action = "GetLatestExchangeRates", controller = "CurrencyConverter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLatestExchangeRates(System.String) on controller CurrencyConverterApi.Controllers.CurrencyConverterController (CurrencyConverterApi).
+2025-01-29 20:05:41.982 +04:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:05:41.982 +04:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?*
+2025-01-29 20:05:42.145 +04:00 [INF] Received HTTP response headers after 162.8272ms - 200
+2025-01-29 20:05:42.145 +04:00 [INF] End processing HTTP request after 163.6899ms - 200
+2025-01-29 20:05:42.147 +04:00 [INF] Executing OkObjectResult, writing value of type 'CurrencyConverterApi.Infrastructure.ExchangeRatesResponse'.
+2025-01-29 20:05:42.147 +04:00 [INF] Executed action CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi) in 166.4963ms
+2025-01-29 20:05:42.147 +04:00 [INF] Executed endpoint 'CurrencyConverterApi.Controllers.CurrencyConverterController.GetLatestExchangeRates (CurrencyConverterApi)'
+2025-01-29 20:05:42.148 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Wed, 29 Jan 2025 16:05:41 GMT
+Server: Kestrel
+2025-01-29 20:05:42.148 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/CurrencyConverter/rates?baseCurrency=eur - 200 null application/json; charset=utf-8 169.5249ms
