@@ -10,10 +10,10 @@ Few improvements are needed to include **rate limiting** and add and make **unit
 
 ## Features
 ✅ Built with **.NET 9 Core Web API**  
-✅ **Rate Limiting** using ASP.NET Middleware (Missing for now) 
+✅ **Rate Limiting** using ASP.NET Middleware (Both the api and external api calls)
 ✅ **Caching** with `IMemoryCache`  
 ✅ **Dependency Injection (DI)**  
-✅ **Unit Testing** with `xUnit` & `Moq` (TODO: Need to make it work) 
+✅ **Unit Testing** with `xUnit` (TODO: Add more tests) 
 ✅ **Swagger / OpenAPI** for API Documentation
 ✅ **Serilog is used for error logging and http request logging**  
 
@@ -34,7 +34,7 @@ Few improvements are needed to include **rate limiting** and add and make **unit
 - **Create a free account on fixer.io, get the access key and add to appsettings** (as FixerKey)
 - Clean, build, run and test the solution
 - swager url should be: https://localhost:7289/index.html
-- Tests will will be added and work soon....
+- Tests: move to text project, add your fixer key and run the test project. One test for now, that should return corrct conversion from EUR to USD the amount is 100. The text is comaring converted value with 103.9600m might need to update at the time of running test. 
 
 
 ---

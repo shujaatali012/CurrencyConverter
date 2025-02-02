@@ -28,7 +28,7 @@ public class CalculatorServiceTests
                 { "ExchangeApiKeys:FrankfurterDevEndpoint", "https://api.frankfurter.dev/v1/" },
                 { "ExchangeApiKeys:FixerLatestEndpoint", "https://data.fixer.io/api/latest" },
                 { "ExchangeApiKeys:FixerTimeSeriestEndpoint", "https://data.fixer.io/api/timeseries" },
-                { "ExchangeApiKeys:FixerKey", "" }
+                { "ExchangeApiKeys:FixerKey", "ADD_YOUR_FIXER_API_KEY_HERE" }
             };
 
         _configuration = new ConfigurationBuilder()
